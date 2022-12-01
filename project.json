@@ -13,10 +13,12 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.4.3.0",
-  "projectVersion": "1.0.73125918",
+  "projectVersion": "1.0.123587503",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -25,7 +27,9 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -41,6 +45,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "9307f8ef-a60b-4fc0-974f-a5aa7b19965e",
+        "testCaseType": "TestCase",
         "fileName": "Test_FavouriteSinger.xaml"
       }
     ],
