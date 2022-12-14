@@ -56,6 +56,7 @@ pipeline {
 	                echo 'Testing the workflow...'
 					UiPathTest (
 					  testTarget: [$class: 'TestSetEntry', testSet: "DarazLogin"],
+					  testTarget: [$class: 'TestSetEntry', testSet: "AnnounceFavouriteSinger_Tests"],
 					  orchestratorAddress: "${UIPATH_ORCH_URL}",
 					  orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
 					  folderName: "${UIPATH_ORCH_FOLDER_NAME}",
